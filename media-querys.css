@@ -1,0 +1,225 @@
+
+@media (max-width: 768px) {
+  .portafolio {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .card{
+    height: 100%;
+  }
+
+  .header {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .logo{
+    height: 80px;
+  }
+  
+.navbar {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #E0B1A8;
+  padding: 1rem;
+  justify-content: flex-end;
+}
+
+.navbar.active {
+  display: flex; 
+  justify-content: flex-end;
+}
+
+.toggle{
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-end;
+  left: 40%;
+}
+
+.bars{
+  background-color: black;
+}
+
+.navbar a {
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
+.skills-container {
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.social-links{
+  display:none
+}
+}
+  
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 100px 10px 50px;
+    }
+    .portfolio {
+        padding: 30px 10px;
+    }
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .container-1 h2{
+      font-size: 40px;
+    }
+  
+    .container-1 p{
+      font-size: 20px;
+    }
+    .container-1{
+      text-align: center;
+    }
+    .card-1{
+      display: none;
+    }
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project {
+        max-width: 90%;
+    }
+    .social-links {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .social-links a {
+        font-size: 0.9rem;
+    }
+    .skills-container {
+      flex-direction: column;
+      align-items: center;
+  }
+  .skill {
+      width: 100px;
+  }
+  .toggle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    left: 30%;
+    width: 40px;  
+    height: 30px;
+  }
+  .logo {
+    height: 50px;
+    margin-right: 60px;
+  }
+  
+}
+
+
+@media (max-width: 360px) and (max-width: 470px){
+    .portafolio {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      height: 100%;
+    }
+ 
+
+  .hidden{
+    text-align: center;
+  }
+
+  .container-1 h2{
+    font-size: 40px;
+  }
+
+  .container-1 p{
+    font-size: 20px;
+  }
+
+  .card-1{
+    display: none;
+  }
+
+    .header {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .logo {
+      height: 50px;
+      margin-right: 60px;
+    }
+  
+    .navbar {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #E0B1A8;
+      padding: 1rem;
+      justify-content: flex-end;
+    }
+  
+    .navbar.active {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .toggle {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      left: 30%;
+      width: 40px;  
+      height: 30px;
+    }
+  
+    .bars {
+      background-color: black;
+      
+    }
+  
+    .navbar a {
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .skills-container {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .social-links {
+      display: none;
+    }
+  }
+   
+  
+
